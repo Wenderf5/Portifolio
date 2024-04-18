@@ -38,7 +38,7 @@ function Carossel() {
           </div>
           <div className={styleCarossel.opProjeto}>
             <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://github.com/Wenderf5/Lista-de-tarefas" target="_blank">Repositorio</a></button>
-            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://lista-de-tarefas-eosin-two.vercel.app/" target="_blank">Aplicação noa ar</a></button>
+            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://lista-de-tarefas-eosin-two.vercel.app/" target="_blank">Aplicação no ar</a></button>
           </div>
         </div>
         <div className={
@@ -53,7 +53,7 @@ function Carossel() {
           </div>
           <div className={styleCarossel.opProjeto}>
             <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://github.com/Wenderf5/TrackMusic" target="_blank">Repositorio</a></button>
-            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://track-music.vercel.app/" target="_blank">Aplicação noa ar</a></button>
+            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://track-music.vercel.app/" target="_blank">Aplicação no ar</a></button>
           </div>
         </div>
         <div className={
@@ -68,7 +68,7 @@ function Carossel() {
           </div>
           <div className={styleCarossel.opProjeto}>
             <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://github.com/Wenderf5/ClimaHoje" target="_blank">Repositorio</a></button>
-            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://clima-hoje-five.vercel.app/" target="_blank">Aplicação noa ar</a></button>
+            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://clima-hoje-five.vercel.app/" target="_blank">Aplicação no ar</a></button>
           </div>
         </div>
       </div>
