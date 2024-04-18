@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    font-family: "Saira", sans-serif;
+}
+
+.bloco1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.bloco2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-color: #0b0b0b;
+}
+
+.bloco3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloco4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0b0b;
+}
+
+.btnIconeRedes {
+    border: none;
+    background-color: #1d1d1d;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.containerhabilidades {
+    width: 50%;
+    overflow: hidden;
+    margin-left: 60px;
+}
+
+.Habilidade {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.HabilidadeCSS {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.HabilidadeCSS1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    opacity: 20%;
+}
+
+.footer {
+    position: end;
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+.btnVerMenos {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    border: 1px #45af6c solid;
+}
+
+@keyframes rotacao {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.piscar {
+    animation: piscar 1s infinite;
+}
+
+.iconeSobre {
+    animation: rotacao 10s linear infinite;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #606060;
+    border-radius: 10px;
+}
+
+.divSobre2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.divtitulo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.divtitulo1 {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ttlW {
+    width: 100%;
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.ttlD {
+    font-size: 30px;
+    color: #45af6c;
+    margin-top: -25px;
+    text-shadow: 1px 1px 10px #00ab6f;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.divredes {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.imgredes {
+    height: 30px;
+    margin-top: 7px;
+}
+
+.divHome {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.imgHome {
+    margin-right: 13vw;
+}
+
+.section2 {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    margin-top: -70px;
+}
+
+.divsobre {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divtxtsobre {
+    margin-left: 25%;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.divttlsobre {
+    color: white;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.divImgSobre {
+    margin-right: 13vw;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divhabilidade {
+    width: 80%;
+    height: 100%;
+}
+
+.ttldivhabilidade {
+    width: 100%;
+    height: 50%;
+    color: #45af6c;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.ttlProjetos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.textdivhabilidade {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.imgHabilidade {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btnvermais {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttldivhabilidades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.divmenumobile{
+    display: none;
+}
+
+.btnmenumobile{
+    display: none;
+}
+
+@media (min-width: 992px) and (max-width: 1350px) {
+
+    .divtitulo1 {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ttldivhabilidades {
+        margin-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: white;
+    }
+
+    .ttlProjetos {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .containerhabilidades {
+        width: 70%;
+        overflow: hidden;
+
+    }
+
+    .imgHome {
+        margin-right: 5%;
+    }
+
+    .ttlW {
+        width: 100%;
+        font-size: 50px;
+        color: white;
+        font-family: 'Poppins' sans-serif;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .divtxtsobre {
+        margin-left: 5%;
+        width: 600px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .divImgSobre {
+        margin-top: 50px;
+        margin-right: 5%;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divmenumobile{
+        display: none;
+    }
+
+    .btnmenumobile{
+        display: none;
+    }
+
+}
+
+@media (min-width: 579px) and (max-width: 991px) {
+
+    .divSobre2 {
+        display: none;
+    }
+
+    .ttlProjetos {
+        margin-top:10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .divttlsobre {
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divtxtsobre {
+        margin-left: 5%;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .divsobre {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerhabilidades {
+        width: 90%;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+
+    .imgHabilidade {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .divhabilidade {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .divHome {
+        width: 50%;
+        height: 100%;
+        display: none;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .divtitulo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divtitulo1 {
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ttldivhabilidade {
+        width: 70%;
+        height: 50%;
+        color: #45af6c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .textdivhabilidade {
+        width: 70%;
+        height: 50%;
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .divmenumobile{
+        display: none;
+    }
+
+    .btnmenumobile{
+        display: none;
+    }
+
+}
+
+@media (max-width: 578px) {
+
+
+    .divSobre2 {
+        display: none;
+    }
+
+    .divttlsobre {
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divtxtsobre {
+        margin-left: 5%;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 0.9rem;
+    }
+
+    .divsobre {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerhabilidades {
+        width: 90%;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+
+    .imgHabilidade {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .divhabilidade {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .divHome {
+        width: 50%;
+        height: 100%;
+        display: none;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .divtitulo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divtitulo1 {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ttldivhabilidade {
+        width: 70%;
+        height: 50%;
+        color: #45af6c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .textdivhabilidade {
+        width: 70%;
+        height: 50%;
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .ttlW {
+        width: 100%;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Poppins' sans-serif;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .ttlD {
+        font-size: 25px;
+        color: #45af6c;
+        margin-top: -15px;
+        text-shadow: 1px 1px 10px #00ab6f;
+        font-family: 'Montserrat' sans-serif;
+    }
+
+    .footer {
+        position: end;
+        background-color: #000000;
+        width: 100%;
+        height: 50px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 13px;
+    }
+
+    .ttldivhabilidades {
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: white;
+    }
+
+    .bloco4 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0b0b0b;
+    }
+
+    .bloco2 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        background-color: #0b0b0b;
+    }
+
+    .ttlProjetos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .divmenumobile0{
+        position: fixed;
+        display: flex;
+        width: 30px;
+        height: 150px;
+        top: 80px;
+        right: -1px;
+        background-color: #000000;
+        border: 1px #45af6c solid;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    .divmenumobile1{
+        position: fixed;
+        display: flex;
+        width: 30px;
+        height: 150px;
+        top: 80px;
+        right: -28px;
+        background-color: #000000;
+        border: 1px #45af6c solid;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    .btnmenumobile{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+}

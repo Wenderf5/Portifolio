@@ -1,0 +1,465 @@
+.container {
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.next {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnnext {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btnback {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.position1 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: -340px;
+    background-color: #0b0b0b;
+    border-radius: 5px;
+    opacity: 50%;
+    box-shadow: 1px 1px 10px #00ab6e;
+    transition: 400ms;
+    border: 3px #00ab6e solid;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    pointer-events: none;
+}
+
+.position2 {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 400px;
+    background-color: #0b0b0b;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #00ab6e;
+    transition: 400ms;
+    border: 3px #00ab6e solid;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.position3 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #0b0b0b;
+    border-radius: 5px;
+    margin-left: 340px;
+    opacity: 50%;
+    box-shadow: 1px 1px 10px #00ab6e;
+    transition: 400ms;
+    border: 3px #00ab6e solid;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    pointer-events: none;
+}
+
+.ftprojeto {
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.tituloprojeto {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.descProjeto {
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.opProjeto {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnprojetos {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.btnprojetos::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    visibility: hidden;
+    height: 0.5px;
+    background: linear-gradient(to left, #00ab6e 70%, #00ab6e 0%, transparent 100%, transparent 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+.btnprojetos:hover::before {
+
+    width: 95%;
+    visibility: visible;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 992px) and (max-width: 1350px) {
+
+    .conteudo {
+        margin-top: -30px;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 578px) and (max-width: 991px) {
+
+    .container {
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo {
+        margin-top: -50px;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .position1 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        margin-left: -140px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .position2 {
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        height: 350px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin: 0;
+    }
+
+    .position3 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        margin-left: 140px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .ftprojeto {
+        width: 90%;
+        height: 30%;
+        border-radius: 10px;
+    }
+
+    .descProjeto {
+        width: 90%;
+        height: 40%;
+        text-align: center;
+        overflow: hidden;
+        font-size: 0.9rem;
+    }
+
+    .btnprojetos {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 0.8rem;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 991px) {
+
+    .position1 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        margin-left: -240px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .position2 {
+        position: absolute;
+        z-index: 1;
+        width: 300px;
+        height: 400px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin: 0;
+    }
+
+    .position3 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        margin-left: 240px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .ftprojeto {
+        width: 90%;
+        height: 40%;
+        border-radius: 10px;
+    }
+
+    .descProjeto {
+        width: 90%;
+        height: 30%;
+        font-size: 1rem;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .btnprojetos {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 578px) {
+
+    .container {
+        width: 100%;
+        height: 400px;
+        margin-top: -50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+    }
+
+    .position1 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        margin-left: -40px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .position2 {
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        height: 350px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin: 0;
+    }
+
+    .position3 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        background-color: #0b0b0b;
+        border-radius: 5px;
+        margin-left: 40px;
+        opacity: 50%;
+        box-shadow: 1px 1px 10px #00ab6e;
+        transition: 400ms;
+        border: 3px #00ab6e solid;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        pointer-events: none;
+    }
+
+    .conteudo {
+        margin-top: 80px;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .ftprojeto {
+        width: 90%;
+        height: 30%;
+        border-radius: 10px;
+    }
+
+    .descProjeto {
+        width: 90%;
+        height: 40%;
+        text-align: center;
+        overflow: hidden;
+        font-size: 0.9rem;
+    }
+
+    .btnprojetos {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 0.8rem;
+        position: relative;
+        margin-bottom: 10px;
+    }
+}

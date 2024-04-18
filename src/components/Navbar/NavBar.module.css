@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container {
+    width: 100%;
+    height: 70px;
+    background: #0b0b0b;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.157);
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+
+.containerLogo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.containerMenu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 15%;
+}
+
+.buttonMenu {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    position: relative;
+    font-family: "Saira", sans-serif;
+}
+
+.buttonMenu::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    visibility: hidden;
+    height: 0.5px;
+    background: linear-gradient(to left, #00ab6e 70%, #00ab6e 0%, transparent 100%, transparent 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+.buttonMenu:hover::before {
+    width: 95%;
+    visibility: visible;
+}
+
+.btnmenumobile{
+    display: none;
+}
+
+.divmenumobile{
+    display: none;
+}
+
+@keyframes rotacao {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.iconesobre{
+    animation: rotacao 4s linear infinite;
+}
+
+@media (min-width: 992px) and (max-width: 1350px){
+
+    .containerLogo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        font-size: 32px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .containerMenu {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 5%;
+    }
+
+    .btnmenumobile{
+        display: none;
+    }
+
+    .divmenumobile{
+        display: none;
+    }
+
+}
+
+@media (min-width: 579px) and (max-width: 991px){
+
+    .containerLogo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+        font-size: 32px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .containerMenu {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 5%;
+    }
+
+    .buttonMenu {
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 10px;
+        position: relative;
+        font-family: "Saira", sans-serif;
+    }
+
+    .btnmenumobile{
+        display: none;
+    }
+
+    .divmenumobile{
+        display: none;
+    }
+
+}
+
+@media (max-width: 578px) {
+    .containerLogo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 7%;
+        font-size: 28px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .containerMenu {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 5%;
+    }
+
+    .buttonMenu {
+        display: none;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 10px;
+        position: relative;
+        font-family: "Saira", sans-serif;
+    }
+
+    .btnmenumobile{
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
