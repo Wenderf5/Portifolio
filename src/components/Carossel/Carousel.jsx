@@ -4,7 +4,7 @@ import styleCarossel from './Carossel.module.css';
 //Imagens
 import imgTrackMusic from '../../img/Track-Music.png';
 import imgClimaHoje from '../../img/Clima-Hoje.png';
-import imgTarefa from '../../img/Lista-tarefa.png';
+import imgNewsFeed from '../../img/desktop-design.jpg';
 
 
 function Carossel() {
@@ -31,14 +31,14 @@ function Carossel() {
           currentPosition === 0 ? styleCarossel.position1 :
             currentPosition === 1 ? styleCarossel.position2 :
               currentPosition === 3 ? styleCarossel.position3 : styleCarossel.position3}>
-          <div className={styleCarossel.ftprojeto}><img style={{ width: "100%", height: "100%", borderRadius: "10px" }} src={imgTarefa} alt="" /></div>
-          <div className={styleCarossel.tituloprojeto}><h3>Lista de tarefas</h3></div>
+          <div className={styleCarossel.ftprojeto}><img style={{ width: "100%", height: "100%", borderRadius: "10px" }} src={imgNewsFeed} alt="" /></div>
+          <div className={styleCarossel.tituloprojeto}><h3>News Feed</h3></div>
           <div className={styleCarossel.descProjeto}>
-          Essa lista de tarefas tem o objetivo de cronometrar o tempo das tarefas tendo como objetivo aumentar a produtividade.
+            Fique por dentro das últimas atualizações em diversas áreas, com análises imparciais e fácil acesso.
           </div>
           <div className={styleCarossel.opProjeto}>
-            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://github.com/Wenderf5/Lista-de-tarefas" target="_blank">Repositorio</a></button>
-            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://lista-de-tarefas-eosin-two.vercel.app/" target="_blank">Aplicação no ar</a></button>
+            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://github.com/Wenderf5/news-homepage" target="_blank">Repositorio</a></button>
+            <button className={styleCarossel.btnprojetos}><a className={styleCarossel.link} href="https://news-homepage-two-flax.vercel.app/" target="_blank">Aplicação no ar</a></button>
           </div>
         </div>
         <div className={
