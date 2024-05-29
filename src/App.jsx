@@ -15,6 +15,7 @@ import iconeHTML from './img/html5-logo-96.png';
 import iconeJS from './img/javascript-logo-96.png';
 import iconeNode from './img/nodejs-logo-96.png';
 import iconeReact from './img/react-logo-96.png';
+import iconWhatsApp from './img/whatsapp-logo-240.png';
 
 //Hooks
 import { useState } from 'react';
@@ -58,6 +59,9 @@ function App() {
               <div className={styleApp.btnIconeRedes}><a href="https://www.linkedin.com/in/wender-fabiano-848a28260/" target="_blank"><img className={styleApp.imgredes} src={iconeLinkedin} alt="" /></a></div>
               <div className={styleApp.btnIconeRedes}><a href="https://github.com/Wenderf5" target="_blank"><img className={styleApp.imgredes} src={iconeGitHub} alt="" /></a></div>
               <div className={styleApp.btnIconeRedes}><a href="https://www.instagram.com/wender_fabiano/" target="_blank"><img className={styleApp.imgredes} src={iconeInstagram} alt="" /></a></div>
+            </div>
+            <div className={styleApp.containerBTNwhatsApp}>
+              <button className={styleApp.btnWhatsApp}><a style={{textDecoration: "none", display: "flex", alignItems: "center", gap: "10px", color: "white"}} href="https://wa.me/5538998731886" target='Blank_'><span>Entrar em contado </span><img width={30} src={iconWhatsApp} alt="" /></a></button>
             </div>
           </div>
         </div>
