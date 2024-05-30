@@ -58,10 +58,7 @@ function App() {
             <div className={styleApp.divredes}>
               <div className={styleApp.btnIconeRedes}><a href="https://www.linkedin.com/in/wender-fabiano-848a28260/" target="_blank"><img className={styleApp.imgredes} src={iconeLinkedin} alt="" /></a></div>
               <div className={styleApp.btnIconeRedes}><a href="https://github.com/Wenderf5" target="_blank"><img className={styleApp.imgredes} src={iconeGitHub} alt="" /></a></div>
-              <div className={styleApp.btnIconeRedes}><a href="https://www.instagram.com/wender_fabiano/" target="_blank"><img className={styleApp.imgredes} src={iconeInstagram} alt="" /></a></div>
-            </div>
-            <div className={styleApp.containerBTNwhatsApp}>
-              <button className={styleApp.btnWhatsApp}><a style={{textDecoration: "none", display: "flex", alignItems: "center", gap: "10px", color: "white"}} href="https://wa.me/5538998731886" target='Blank_'><span>Entrar em contado </span><img width={30} src={iconWhatsApp} alt="" /></a></button>
+              <div className={styleApp.btnIconeRedes}><a href="https://wa.me/5538998731886" target="_blank"><img className={styleApp.imgredes} src={iconWhatsApp} alt="" /></a></div>
             </div>
           </div>
         </div>
