@@ -461,17 +461,4 @@
         position: relative;
         margin-bottom: 10px;
     }
-
-    .btnprojetos::before {
-        content: '';
-        position: absolute;
-        bottom: -3px;
-        left: 0;
-        width: 95%;
-        visibility: visible;
-        height: 0.5px;
-        background: linear-gradient(to left, #00ab6e 70%, #00ab6e 0%, transparent 100%, transparent 100%);
-        border-radius: 4px;
-        transition: width 0.3s ease-in-out;
-    }
 }
