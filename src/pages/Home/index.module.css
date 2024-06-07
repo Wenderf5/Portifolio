@@ -227,6 +227,8 @@ body {
     width: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .divImgSobre {
@@ -256,6 +258,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     color: white;
 }
 
@@ -291,6 +294,7 @@ body {
     justify-content: center;
     align-content: center;
     color: white;
+    gap: 15px;
 }
 
 .divmenumobile{
@@ -330,7 +334,6 @@ body {
     .containerhabilidades {
         width: 70%;
         overflow: hidden;
-
     }
 
     .imgHome {
@@ -511,6 +514,10 @@ body {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .ttlhabilidade{
+        font-size: 8vw;
     }
 
     .divtxtsobre {
