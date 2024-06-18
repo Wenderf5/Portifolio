@@ -12,6 +12,8 @@ import iconeHTML from '../../img/html5-logo-96.png';
 import iconeJS from '../../img/javascript-logo-96.png';
 import iconeNode from '../../img/nodejs-logo-96.png';
 import iconeReact from '../../img/react-logo-96.png';
+import iconeNext from '../../img/nextjs.png';
+import iconeNest from '../../img/nestjs-icon.png';
 
 
 function Skills() {
@@ -49,7 +51,9 @@ function Skills() {
                         <div>
                             <Skill imgIcone={iconeJS} titulo={"JavaScript"} desc={"É uma linguagem de programação juntamente com HTML e CSS, é uma das três principais tecnologias da Web."}/>
                             <Skill imgIcone={iconeReact} titulo={"React JS"} desc={"O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”."}/>
+                            <Skill imgIcone={iconeNext} titulo={"Next JS"} desc={"Next.js é um framework de código aberto baseado em React que permite criar aplicações web com renderização do lado do servidor e páginas estáticas. Desenvolvido pela Vercel, oferece roteamento dinâmico e suporte a TypeScript, otimizando a experiência do desenvolvedor."}/>
                             <Skill imgIcone={iconeNode} titulo={"Node JS"} desc={"Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web."}/>
+                            <Skill imgIcone={iconeNest} titulo={"Nest JS"} desc={"Nest.js é um framework de código aberto para Node.js, baseado em TypeScript, projetado para criar aplicações escaláveis e eficientes. Oferece uma arquitetura modular e suporte a injeção de dependências, facilitando o desenvolvimento e manutenção de aplicações complexas."}/>
                             <Skill imgIcone={iconeDB} titulo={"My SQL"} desc={"O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo."}/>
                         </div>
                     )}
