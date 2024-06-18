@@ -14,7 +14,7 @@ import iconeNode from '../../img/nodejs-logo-96.png';
 import iconeReact from '../../img/react-logo-96.png';
 import iconeNext from '../../img/nextjs.png';
 import iconeNest from '../../img/nestjs-icon.png';
-
+import iconeTS from '../../img/typescript-logo-96.png';
 
 function Skills() {
 
@@ -50,6 +50,7 @@ function Skills() {
                     {Vermais && (
                         <div>
                             <Skill imgIcone={iconeJS} titulo={"JavaScript"} desc={"É uma linguagem de programação juntamente com HTML e CSS, é uma das três principais tecnologias da Web."}/>
+                            <Skill imgIcone={iconeTS} titulo={"TypeScript"} desc={"TypeScript é um superset de JavaScript de código aberto, desenvolvido pela Microsoft, que adiciona tipagem estática. Ele permite criar código mais robusto e fácil de manter, compilando para JavaScript para garantir compatibilidade."}/>
                             <Skill imgIcone={iconeReact} titulo={"React JS"} desc={"O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”."}/>
                             <Skill imgIcone={iconeNext} titulo={"Next JS"} desc={"Next.js é um framework de código aberto baseado em React que permite criar aplicações web com renderização do lado do servidor e páginas estáticas. Desenvolvido pela Vercel, oferece roteamento dinâmico e suporte a TypeScript, otimizando a experiência do desenvolvedor."}/>
                             <Skill imgIcone={iconeNode} titulo={"Node JS"} desc={"Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web."}/>
