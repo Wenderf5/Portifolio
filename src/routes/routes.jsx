@@ -12,4 +12,5 @@ function routes() {
         </BrowserRouter>
     )
 }
+
 export default routes
