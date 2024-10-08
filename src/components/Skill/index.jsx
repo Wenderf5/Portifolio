@@ -1,13 +1,14 @@
 import style from './index.module.css';
 
-import iconeDB from '../../img/data-solid-96.png';
-
-function Skill(props) {
-
-    const {imgIcone, titulo, desc} = props;
+export function Skill(props) {
+    const {
+        imgIcone,
+        titulo,
+        desc
+    } = props;
 
     return (
-        <div style={{width: "100%", display: "flex", alignItems: "center"}}>
+        <section style={{ width: "100%", display: "flex", alignItems: "center" }}>
             <div className={style.Habilidade}>
                 <div className={style.divhabilidade}>
                     <div className={style.ttldivhabilidade}>{titulo}</div>
@@ -17,7 +18,6 @@ function Skill(props) {
                     <img src={imgIcone} alt="" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
-export default Skill;

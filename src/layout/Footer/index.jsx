@@ -1,6 +1,6 @@
 import style from './index.module.css';
 
-function Footer() {
+export function Footer() {
     return (
         <footer className={style.footer}>
             <span>Feito por: Wender Fabiano</span>
@@ -8,4 +8,3 @@ function Footer() {
         </footer>
     )
 }
-export default Footer
