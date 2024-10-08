@@ -1,6 +1,6 @@
-import Routes from "./routes/routes";
+import './App.css';
+import { Outlet } from "react-router-dom";
 
-function App() {
-  return (<Routes />)
+export function App() {
+  return (<Outlet />)
 }
-export default App
