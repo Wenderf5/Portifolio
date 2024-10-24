@@ -11,13 +11,7 @@ export function About() {
                         <div style={{ display: "flex", alignItems: "center" }}><svg className={style.svgTtl} width="61" height="20" viewBox="0 0 61 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="54" height="4" rx="2" fill="#00AD6F" fill-opacity="0.58"></rect><rect y="16" width="54" height="4" rx="2" fill="#00AD6F" fill-opacity="0.58"></rect><rect x="7" y="8" width="54" height="4" rx="2" fill="#00AD6F" fill-opacity="0.58"></rect></svg></div>
                     </div>
                     <span>
-                        Olá! Sou Wender Fabiano, desenvolvedor web especializado em HTML, CSS, JavaScript,
-                        TypeScript, React.js, Node.js, Nest.js e SQL. Tenho experiência prática em todas as
-                        fases do ciclo de desenvolvimento de software. Minhas habilidades incluem
-                        desenvolvimento web, backend e frontend, além de conhecimento em bancos de dados.
-                        Destaco-me pela excelente capacidade de resolução de problemas e comunicação.
-                        Comprometimento com o profissionalismo e a busca constante pela excelência são
-                        valores que levo para todos os meus projetos.
+                        Olá, eu sou Wender Fabiano, desenvolvedor web com foco no desenvolvimento full-stack. Minha stack é voltada principalmente ao JavaScript, mas também estou estudando Java. No front-end, utilizo React.js, TypeScript e CSS Modules para criar interfaces dinâmicas e responsivas. No back-end, trabalho com Node.js, Nest.js, Express e TypeScript para desenvolver APIs e sistemas eficientes. Tenho conhecimento em bancos de dados SQL, o que me permite gerenciar dados de maneira eficaz, e utilizo GIT para o versionamento de projetos. Destaco-me pela minha capacidade de resolver problemas e pela comunicação clara, sempre buscando entregar soluções de alta qualidade.
                     </span>
                 </div>
             </div>
